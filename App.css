@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrollbars */
+  height: 100%;
+  width: 100%;
+}
+
+.game-container {
+  position: relative;
+  background-color: #000;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+}
+
+.player {
+  position: absolute;
+  background-color: #0f0;
+}
+
+.bullet {
+  position: absolute;
+  background-color: #f00;
+}
+
+.color {
+  position: absolute;
+  border-radius: 50%;
+}
